@@ -49,9 +49,9 @@ FusionEKF::FusionEKF() {
 
   MatrixXd P = MatrixXd(4, 4);
   P << 1, 0, 0, 0,
-           0, 1, 0, 0,
-           0, 0, 1000, 0,
-           0, 0, 0, 1000;
+       0, 1, 0, 0,
+       0, 0, 1000, 0,
+       0, 0, 0, 1000;
   
   MatrixXd Q = MatrixXd(4, 4);
   
