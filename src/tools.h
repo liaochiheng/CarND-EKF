@@ -27,7 +27,7 @@ public:
   /**
   * A helper method to calculate Jacobians.
   */
-  bool CalculateJacobian(const VectorXd &x_state, MatrixXd &Hj);
+  void CalculateJacobian(const VectorXd &x_state, MatrixXd &Hj);
 
 };
 
